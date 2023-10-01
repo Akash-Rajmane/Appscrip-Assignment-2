@@ -1,0 +1,58 @@
+.visible{
+    display: none;
+}
+
+
+
+
+@media only screen and (max-width:1236px){
+.navlinks li a{
+  text-decoration: none;
+  color: #04095A
+}  
+.navlinks li a.active{
+  text-decoration: none;
+  color: #1e90ff;
+}     
+
+.hide {
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 80px;
+    right: -100%;
+    transition: all 900ms ease;
+    z-index: 12;
+    gap: 10px;
+    justify-content: flex-start;
+    background-color: #ebf4fa;
+    align-items: center;
+  }
+  
+  .visible {
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ebf4fa;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    transition: all 650ms ease;
+    z-index: 12;
+  }
+
+  .visible li{
+    list-style: none;
+  }
+
+  .hide li{
+    list-style: none;
+  }
+}

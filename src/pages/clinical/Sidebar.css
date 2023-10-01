@@ -1,0 +1,94 @@
+.sidebar{
+    width: 200px;
+    background-color: #fff;
+    height: 100%;
+    position: absolute;
+    border-right: 1px solid #e8e8e8;
+}
+
+.sb-box{
+    margin: 10px;
+}
+
+.clinical-btn{
+   width: 180px;
+   height: 44px;
+   color: #ffffff;
+   background-color: #04095A;
+   border-radius: 6px;
+   border: none;
+}
+
+.inline{
+    display: flex;
+    align-items: center;
+}
+
+.btn-text{
+    font-size: 16px;
+    margin: auto;
+}
+
+.hz{
+    display: flex;
+    align-items: center;
+    color: #7e7e7e;
+    width: 160px;
+    margin: 10px;
+    gap: 10px;
+}
+
+.activepath{
+    display: flex;
+    align-items: center;
+    color: #04095A;
+    width: 160px;
+    margin: 10px;
+    gap: 10px;
+    background-color: #F8FBFF;
+    border-right: 1px solid #04095A;
+}
+
+.hz a{
+    text-decoration: none;
+    color: #7e7e7e;
+}
+
+.nav-txt{
+    color: #04095A;
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width:1236px){
+    .sidebar{
+        width: 160px;
+    }
+
+    .clinical-btn{
+        width: 140px;
+    }
+
+    .hz{
+        display: flex;
+        align-items: center;
+        color: #7e7e7e;
+        width: 140px;
+        margin: 10px;
+        gap: 5px;
+    }
+
+    .activepath{
+        display: flex;
+        align-items: center;
+        color: #04095A;
+        width: 140px;
+        margin: 10px;
+        gap: 5px;
+    }
+}
+
+
+
+
+
+

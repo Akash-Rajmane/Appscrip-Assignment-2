@@ -1,0 +1,148 @@
+.tasksheader{
+    display: flex;
+    padding-top: 15px;
+    margin-left: 15px;
+}
+
+.inputbox svg{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.inputbox{
+    margin-right: 20px;
+    position: relative;
+}
+
+.input-date{
+    position: relative;
+}
+
+.inputbox input{
+    width: 220px;
+    height: 40px;
+    border: 1px solid #cecece;
+    border-radius: 6px;
+    padding-left: 45px;
+}
+
+.input-date svg{
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;
+}
+
+.input-date input{
+    width: 70px;
+    height: 40px;
+    border-radius: 6px;
+    padding-left: 45px;
+    border: 1px solid #cecece;
+    margin-block-start: 0;
+    padding-block-start: 0;
+}
+
+.to{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333333;
+    margin: 10px 5px 0px 5px;
+}
+
+.btn-box{
+    display: flex;
+    gap: 15px;
+    margin-left: 30px;
+}
+
+.apply-btn{
+    border-radius: 23px;
+    width:80px;
+    height: 40px;
+    background-color: #04095A;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+}
+
+.rst-btn{
+    border-radius: 23px;
+    width:80px;
+    height: 40px;
+    color: #377BFF;
+    border: 1px solid #377BFF;
+    font-size: 16px;
+}
+
+.fltr-btn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80px;
+    color: #04095A;
+    border: 1px solid #04095A;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-left: 130px;
+}
+
+@media only screen and (max-width:1236px){
+    .tasksheader{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fltr-btn{
+        margin: 10px;
+        height: 30px;
+    }
+
+    .apply-btn{
+        border-radius: 23px;
+        width:70px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    
+    .rst-btn{
+        border-radius: 23px;
+        width:70px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .inputbox input{
+        width: 70%;
+        height: 30px;
+    }
+
+    .inputbox svg{
+        position: absolute;
+        top: 5px;
+    }
+
+    .to{
+        margin: 0px;
+    }
+
+    .input-date svg{
+        position: absolute;
+        top: 15px;
+        margin-left: 10px;
+    }
+    
+    .input-date input{
+        width: 70px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .btn-box{
+        display: flex;
+        gap: 3px;
+        margin: 0px;
+    }
+}

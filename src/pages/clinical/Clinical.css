@@ -1,0 +1,12 @@
+.clinical{
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+
+@media only screen and (max-width:1236px) {
+    .clinical{
+        display: grid;
+        grid-template-columns: 160px auto;
+    }
+}
+

@@ -1,0 +1,74 @@
+.card{
+    display: grid;
+    grid-template-columns: 80px 280px 320px 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #E9ECF1;
+    margin: 15px;
+}
+
+
+.avatar{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+
+.desc{
+    color: rgba(55, 123, 255, 0.90);
+}
+
+.txt{
+    color: #7e7e7e;
+}
+
+.name{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.data{
+    color: #7e7e7e;
+    font-weight: 400;
+}
+
+.red{
+    color: #f44336;
+}
+
+.green{
+    color:#00B071;
+}
+
+.status{
+    color: #7e7e7e;
+    margin-right: 20px;
+}
+
+.right{
+    float: right;
+}
+
+.asses-btn{
+    float: right;
+    padding: 6px 15px;
+    background-color: #04095A;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+}
+
+@media only screen and (max-width:1236px){
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
